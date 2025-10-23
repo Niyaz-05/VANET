@@ -1,0 +1,13 @@
+.vercel
+client/node_modules/
+server/node_modules/
+**/node_modules/
+client/dist/
+dist/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+npm-debug.log*
+yarn-error.log*

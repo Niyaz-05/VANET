@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+html, body, #root { height: 100%; }
+
+.card { @apply bg-slate-800 border border-slate-700 rounded-lg p-3; }
+.badge { @apply inline-flex items-center gap-2 rounded px-2 py-0.5 text-xs font-medium; }
+.badge-dot { @apply inline-block w-2 h-2 rounded-full; }
